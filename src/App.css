@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+}
+.container{
+    width:100% ;
+    margin: auto;
+   
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(5,5,5);
+    color:wheat;
+}
+
+nav * {
+    color: inherit;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 8px;
+}
+
+a.active{
+    color: red;
+    text-decoration: none;
+}
